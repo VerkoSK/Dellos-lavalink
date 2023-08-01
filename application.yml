@@ -8,7 +8,7 @@ spring:
     allow-bean-definition-overriding: true
 lavalink:
   server:
-    password: "Verko987?!" # Tu nastavte svoje heslo pre Lavalink
+    password: "Verko987" # Tu nastavte svoje heslo pre Lavalink
     sources:
       youtube: false
       bandcamp: true
