@@ -1,0 +1,24 @@
+server:
+  address: 0.0.0.0
+  port: ${PORT:9898}
+spring:
+  datasource:
+    url: jdbc:h2:file:/data/db
+  main:
+    allow-bean-definition-overriding: true
+lavalink:
+  server:
+    password: "Verko987?!" # Tu nastavte svoje heslo pre Lavalink
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      mixer: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: false
